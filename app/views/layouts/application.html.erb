@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="navbar">
+    <div class="navbar-inner">
+        <%= link_to image_tag('batman.jpg'), root_path,:class =>'brand' 	  %>
+        <ul class="nav">
+            <li>
+                <%= link_to 'О проекте', about_path	  %>
+            </li>
+            <li>
+                <%= link_to 'Команда', team_path  %>
+            </li>
+            <li>
+                <%= link_to 'Контакты',	contacts_path  %>
+            </li>
+            <li>
+                <%= link_to 'Категории',	categories_path  %>
+            </li>
+            <li>
+                <%= link_to 'Товары',	items_path  %>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+
+<div class='header'>
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="span8">
+
+      <p id="notice"><%= notice %></p>
+      <%= yield %> </div>
+    <div class="span4 sidebar">
+      <div class="sidebar-inner">
+        <%= link_to image_tag('gl.jpg'), sidebar_pic_path 	  %>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class='footer'>
+  <%=	 link_to 'Условия', legal_terms_path %>
+  <%=	 link_to 'ЧаВо', legal_faq_path %>
+</div>
+
+
+</body>
+</html>

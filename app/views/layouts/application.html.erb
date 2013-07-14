@@ -53,6 +53,7 @@
         <% if signed_in? %>
             Здравствуйте, я ваша тетя
             Ваш e-mail: <%= current_user.email %>
+            <%= link_to 'Корзина', item_users_path %>
             <%= link_to 'Выходи, дорогой', destroy_user_session_path, method: :delete %>
         <% else %>
             You shall not pass, авторизуйся!!!

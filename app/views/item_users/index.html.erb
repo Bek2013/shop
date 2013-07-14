@@ -11,7 +11,7 @@
   <tr>
     <td><%= t.item.name %></td>
     <td><%= t.item.price %></td>
-    <td>1</td>
+    <td><%= t.quantity %></td>
     <td><%= link_to 'Удалить',t, method: :delete, confirm: 'Точно?' %> </td>
   </tr>
 <% end %>

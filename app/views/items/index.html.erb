@@ -21,10 +21,14 @@
       <% end %>
     </td>
     <td>
+      <% if signed_in? %>
       <%= link_to 'Редактировать', edit_item_path(item) %>
+          <% end %>
     </td>
     <td>
+      <% if signed_in? %>
       <%= link_to 'Удалить', item, method: :delete, confirm: 'Точно удалить, чувак?' %>
+      <% end %>
     </td>
   </tr>
   <% end %>

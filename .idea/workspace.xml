@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/home_controller.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373700850113" ignored="false" />
     <file path="/routes.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373718586095" ignored="false" />
-    <file path="/index.html.erb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373713676419" ignored="false" />
+    <file path="/index.html.erb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373787072057" ignored="false" />
     <file path="/pages_controller.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373105291022" ignored="false" />
     <file path="/contacts.html.erb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373105397180" ignored="false" />
     <file path="/team.html.erb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373105410180" ignored="false" />
@@ -19,7 +19,7 @@
     <file path="/layout.css.scss" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373115834265" ignored="false" />
     <file path="/sidebar_controller.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373117390921" ignored="false" />
     <file path="/sidebar.html.erb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373117281489" ignored="false" />
-    <file path="/categories_controller.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373702235525" ignored="false" />
+    <file path="/categories_controller.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373786523858" ignored="false" />
     <file path="/show.html.erb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373719735015" ignored="false" />
     <file path="/20130707074835_add_description_to_category.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373183426584" ignored="false" />
     <file path="/category.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373713450032" ignored="false" />
@@ -32,7 +32,7 @@
     <file path="/20130713070236_create_items.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373699608457" ignored="false" />
     <file path="/item.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373719342003" ignored="false" />
     <file path="/new.html.erb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373701781752" ignored="false" />
-    <file path="/items_controller.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373720652196" ignored="false" />
+    <file path="/items_controller.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373787138040" ignored="false" />
     <file path="/edit.html.erb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373707151019" ignored="false" />
     <file path="/20130713093823_add_categories_id_to_item.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373708484423" ignored="false" />
     <file path="/20130713122044_create_comments.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373718235022" ignored="false" />
@@ -59,10 +59,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="20130714062612_devise_create_users.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130714062612_devise_create_users.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="28" column="4" selection-start="611" selection-end="611" vertical-scroll-proportion="-17.5">
               <folding />
             </state>
           </provider>
@@ -86,10 +86,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="55" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.7743363">
+            <state line="35" column="55" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categories_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="59" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="59" selection-start="129" selection-end="129" vertical-scroll-proportion="0.045801528">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comments_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="12" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/items/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="15" selection-start="695" selection-end="695" vertical-scroll-proportion="-18.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/items/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="19" selection-start="228" selection-end="228" vertical-scroll-proportion="-5.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="28" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -105,13 +159,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20130713122044_create_comments.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130713122119_add_item_id_to_comment.rb" />
-        <option value="$PROJECT_DIR$/app/models/item.rb" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/app/views/items/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
@@ -121,6 +171,10 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/categories/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/items/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
       </list>
     </option>
   </component>
@@ -336,6 +390,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="items" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -746,41 +866,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/items/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="6" selection-start="526" selection-end="607" vertical-scroll-proportion="-16.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/item.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/items/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="228" selection-end="228" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="32" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="75" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.47328246">
@@ -791,13 +876,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/items/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="17" selection-start="451" selection-end="451" vertical-scroll-proportion="0.5963303">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="352" selection-end="352" vertical-scroll-proportion="0.28761062">
           <folding />
         </state>
       </provider>
@@ -846,7 +924,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="55" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.7743363">
+        <state line="35" column="55" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="59" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="12" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/items/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="228" selection-end="228" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="28" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="4" selection-start="611" selection-end="611" vertical-scroll-proportion="-17.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/items/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="15" selection-start="695" selection-end="695" vertical-scroll-proportion="-18.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="59" selection-start="129" selection-end="129" vertical-scroll-proportion="0.045801528">
           <folding />
         </state>
       </provider>

@@ -1,5 +1,8 @@
 class ItemsController < ApplicationController
   # GET: Список товаров
+  before_filter :authenticate_user!, except: [:index, :show]
+
+
   def   index
    @items = Item.all
   end

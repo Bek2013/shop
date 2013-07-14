@@ -7,7 +7,7 @@ Shop::Application.routes.draw do
   resources :items
   resources :comments, only: [:create, :destroy]
   resources :item_users, only: [:create, :index, :destroy]
-
+  resources :orders, only: [:index, :create]
 
   get 'about' => 'pages#about'
   get 'team' => 'pages#team'

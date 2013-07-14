@@ -4,5 +4,7 @@ class User < ActiveRecord::Base
   # :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-  has_many :item_users
+  has_many :item_users, dependent: :destroy
+  has_many :orders, dependent: :destroy
+
 end

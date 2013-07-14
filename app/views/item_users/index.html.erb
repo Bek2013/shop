@@ -1,4 +1,6 @@
 <h1>Корзина</h1>
+
+<% if @item_users.any? %>
 <table class = "table">
   <tr>
     <td>Название товара</td>
@@ -14,6 +16,12 @@
     <td><%= t.quantity %></td>
     <td><%= link_to 'Удалить',t, method: :delete, confirm: 'Точно?' %> </td>
   </tr>
-<% end %>
 
+
+<% end %>
 </table>
+   <%= link_to 'Оформить заказ', orders_path, method: :post, class: 'btn btn-success btn-large' %>
+
+ <% else %>
+    <p>У вас в корзине ничего нет, сходите что-нибудь купите.</p>
+<% end %>

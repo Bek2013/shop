@@ -9,4 +9,5 @@ class Item < ActiveRecord::Base
   belongs_to :category
   has_many :comments
   has_many :item_users
+  has_many :item_orders, dependent: :destroy
 end

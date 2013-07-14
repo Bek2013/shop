@@ -4,6 +4,7 @@ Shop::Application.routes.draw do
   resources :categories
   resources :items
   resources :comments, only: [:create, :destroy]
+  resources :item_users, only: [:create, :index, :destroy]
 
 
   get 'about' => 'pages#about'

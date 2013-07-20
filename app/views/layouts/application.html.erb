@@ -52,9 +52,9 @@
       <div class="sidebar-inner">
         <% if signed_in? %>
             <p> Здравствуйте, <%= link_to current_user.full_name, profile_show_path %> </p>
-            <%= link_to 'Корзина', item_users_path %>
+            <%= link_to 'Корзина', item_users_path, class: 'btn' %>
             <%= link_to 'Заказы', orders_path, class: 'btn' %>
-            <%= link_to 'Выходи, дорогой', destroy_user_session_path, method: :delete %>
+            <%= link_to 'Выходи, дорогой', destroy_user_session_path, method: :delete, class: 'btn' %>
         <% else %>
             You shall not pass, авторизуйся!!!
             <%= link_to 'Заходи, дорогой', new_user_session_path %>

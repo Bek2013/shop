@@ -5,10 +5,13 @@ gem 'devise', '3.0.0rc'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'sqlite3', :group => :development
+gem 'pg', :group => :production
 gem 'simple_form'
 
 gem "letter_opener", :group => :development
+
+
 
 gem "twitter-bootstrap-rails"
 

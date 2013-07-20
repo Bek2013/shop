@@ -129,19 +129,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="251" selection-end="251" vertical-scroll-proportion="0.20610687">
+            <state line="9" column="17" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="70" selection-start="2535" selection-end="2535" vertical-scroll-proportion="0.0">
+            <state line="66" column="93" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.8167939">
               <folding />
             </state>
           </provider>
@@ -975,16 +975,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="70" selection-start="2535" selection-end="2535" vertical-scroll-proportion="0.0">
+        <state line="9" column="17" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="251" selection-end="251" vertical-scroll-proportion="0.20610687">
+        <state line="66" column="93" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.8167939">
           <folding />
         </state>
       </provider>

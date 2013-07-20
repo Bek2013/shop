@@ -64,5 +64,5 @@ Shop::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   config.eager_load = true
-  config.action_mailer.default_url_options = { :host => 'pacific-caverns-5781.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'ancient-anchorage-2628.herokuapp.com' }
 end

@@ -9,7 +9,7 @@ gem 'devise', '3.0.0rc'
 
 gem 'sqlite3', :group => :development
 gem 'pg', :group => :production
-gem 'warden', '~> 1.2.3'
+gem "warden", "~> 1.2.3"
 gem 'simple_form'
 
 gem "letter_opener", :group => :development

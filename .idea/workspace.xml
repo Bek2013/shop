@@ -24,7 +24,7 @@
     <file path="/20130707074835_add_description_to_category.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373183426584" ignored="false" />
     <file path="/category.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373713450032" ignored="false" />
     <file path="/_form.html.erb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373720571423" ignored="false" />
-    <file path="/Gemfile" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1374301945154" ignored="false" />
+    <file path="/Gemfile" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1374303000036" ignored="false" />
     <file path="/a.dummy" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373787843536" ignored="false" />
     <file path="/development.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373699377976" ignored="false" />
     <file path="/test.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373699389846" ignored="false" />
@@ -129,19 +129,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+            <state line="9" column="15" selection-start="249" selection-end="249" vertical-scroll-proportion="0.20610687">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="93" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.8167939">
+            <state line="66" column="93" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,8 +171,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/orders/index.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -975,16 +975,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+        <state line="66" column="93" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="93" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.8167939">
+        <state line="9" column="15" selection-start="249" selection-end="249" vertical-scroll-proportion="0.20610687">
           <folding />
         </state>
       </provider>

@@ -2,6 +2,7 @@
 
 <table class="table">
   <tr>
+    <td>Фото</td>
     <th>ID</th>
     <th>Название</th>
     <th>Описание</th>
@@ -11,6 +12,7 @@
   </tr>
   <% @items.each do |item| %>
   <tr>
+    <td><%= image_tag item.avatar %></td>
     <td><%= item.id %></td>
     <td><%= link_to item.name, item %></td>
     <td><%= item.description %></td>

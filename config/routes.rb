@@ -9,6 +9,10 @@ Shop::Application.routes.draw do
   resources :item_users, only: [:create, :index, :destroy]
   resources :orders, only: [:index, :create]
 
+  get 'profile/show'
+  get 'profile/edit'
+  put 'profile/save'
+
   get 'about' => 'pages#about'
   get 'team' => 'pages#team'
   get 'contacts' => 'pages#contacts'

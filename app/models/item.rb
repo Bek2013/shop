@@ -10,4 +10,7 @@ class Item < ActiveRecord::Base
   has_many :comments
   has_many :item_users
   has_many :item_orders, dependent: :destroy
+
+  has_attached_file :avatar, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/assets/missing-item.png"
+
 end

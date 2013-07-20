@@ -1,0 +1,27 @@
+<h1>Заказы</h1>
+
+
+<% @orders.each do |order| %>
+
+    <h3>Заказ №<%= order.id%></h3>
+    <p>Сумма заказа: <strong><%= order.total %> руб.</strong></p>
+    <p>Клиент: <strong><%= order.user.full_name %></strong></p>
+
+
+    <table class="table">
+      <tr>
+        <th>Наименование</th>
+        <th>Количество</th>
+        <th>Цена</th>
+      </tr>
+      <% order.item_orders.each do |io| %>
+          <tr>
+            <td><%= io.item.name %></td>
+            <td><%= io.quantity %></td>
+            <td><%= io.price %> руб. </td>
+
+          </tr>
+      <% end %>
+    </table>
+
+<% end %>

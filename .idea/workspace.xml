@@ -24,7 +24,7 @@
     <file path="/20130707074835_add_description_to_category.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373183426584" ignored="false" />
     <file path="/category.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373713450032" ignored="false" />
     <file path="/_form.html.erb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373720571423" ignored="false" />
-    <file path="/Gemfile" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1374304250801" ignored="false" />
+    <file path="/Gemfile" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1374305256868" ignored="false" />
     <file path="/a.dummy" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373787843536" ignored="false" />
     <file path="/development.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373699377976" ignored="false" />
     <file path="/test.rb" changelist="33978101-eaa1-46da-a1c2-d323ff7a6828" time="1373699389846" ignored="false" />
@@ -132,7 +132,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.4351145">
+            <state line="14" column="89" selection-start="381" selection-end="381" vertical-scroll-proportion="0.32061067">
               <folding />
             </state>
           </provider>
@@ -659,7 +659,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="803" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -842,7 +842,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.4351145">
+        <state line="14" column="89" selection-start="381" selection-end="381" vertical-scroll-proportion="0.32061067">
           <folding />
         </state>
       </provider>

@@ -12,6 +12,8 @@ gem 'pg', :group => :production
 gem "warden", "~> 1.2.3"
 gem 'simple_form'
 
+gem 'rails_12factor' #Чтобы компилировать стили, картинки и скрипты для Rails 4 на Heroku
+
 gem "letter_opener", :group => :development
 
 
